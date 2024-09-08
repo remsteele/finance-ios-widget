@@ -39,7 +39,7 @@ struct ContentView: View {
 //}
 
 func updateDataFrame(dataFrame: DataFrame) {
-    let url = URL(string: "https://5fc9-98-173-52-150.ngrok-free.app")!
+    let url = URL(string: "localhost:8000/api/sp500/")!
     
     let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
         guard let data = data else {
