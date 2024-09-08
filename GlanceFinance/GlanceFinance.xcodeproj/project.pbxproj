@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0A2D9162B659BC5007A625D /* GlanceFinanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A2D9152B659BC5007A625D /* GlanceFinanceApp.swift */; };
+		C0A2D9182B659BC5007A625D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A2D9172B659BC5007A625D /* ContentView.swift */; };
+		C0A2D91A2B659BC6007A625D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A2D9192B659BC6007A625D /* Assets.xcassets */; };
+		C0A2D91D2B659BC6007A625D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A2D91C2B659BC6007A625D /* Preview Assets.xcassets */; };
+		C0A2D92A2B659BE9007A625D /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A2D9292B659BE9007A625D /* WidgetKit.framework */; };
+		C0A2D92C2B659BE9007A625D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A2D92B2B659BE9007A625D /* SwiftUI.framework */; };
+		C0A2D92F2B659BE9007A625D /* GlanceWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A2D92E2B659BE9007A625D /* GlanceWidgetBundle.swift */; };
+		C0A2D9312B659BE9007A625D /* GlanceWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A2D9302B659BE9007A625D /* GlanceWidget.swift */; };
+		C0A2D9332B659BEA007A625D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A2D9322B659BEA007A625D /* Assets.xcassets */; };
+		C0A2D9372B659BEA007A625D /* GlanceWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C0A2D9272B659BE9007A625D /* GlanceWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0A2D9352B659BEA007A625D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0A2D90A2B659BC5007A625D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0A2D9262B659BE9007A625D;
+			remoteInfo = GlanceWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C0A2D93B2B659BEA007A625D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C0A2D9372B659BEA007A625D /* GlanceWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C0A2D9122B659BC5007A625D /* GlanceFinance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlanceFinance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A2D9152B659BC5007A625D /* GlanceFinanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceFinanceApp.swift; sourceTree = "<group>"; };
+		C0A2D9172B659BC5007A625D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C0A2D9192B659BC6007A625D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0A2D91C2B659BC6007A625D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C0A2D9272B659BE9007A625D /* GlanceWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GlanceWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A2D9292B659BE9007A625D /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		C0A2D92B2B659BE9007A625D /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		C0A2D92E2B659BE9007A625D /* GlanceWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceWidgetBundle.swift; sourceTree = "<group>"; };
+		C0A2D9302B659BE9007A625D /* GlanceWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceWidget.swift; sourceTree = "<group>"; };
+		C0A2D9322B659BEA007A625D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0A2D9342B659BEA007A625D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0A2D90F2B659BC5007A625D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A2D9242B659BE9007A625D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A2D92C2B659BE9007A625D /* SwiftUI.framework in Frameworks */,
+				C0A2D92A2B659BE9007A625D /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0A2D9092B659BC5007A625D = {
+			isa = PBXGroup;
+			children = (
+				C0A2D9142B659BC5007A625D /* GlanceFinance */,
+				C0A2D92D2B659BE9007A625D /* GlanceWidget */,
+				C0A2D9282B659BE9007A625D /* Frameworks */,
+				C0A2D9132B659BC5007A625D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0A2D9132B659BC5007A625D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0A2D9122B659BC5007A625D /* GlanceFinance.app */,
+				C0A2D9272B659BE9007A625D /* GlanceWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0A2D9142B659BC5007A625D /* GlanceFinance */ = {
+			isa = PBXGroup;
+			children = (
+				C0A2D9152B659BC5007A625D /* GlanceFinanceApp.swift */,
+				C0A2D9172B659BC5007A625D /* ContentView.swift */,
+				C0A2D9192B659BC6007A625D /* Assets.xcassets */,
+				C0A2D91B2B659BC6007A625D /* Preview Content */,
+			);
+			path = GlanceFinance;
+			sourceTree = "<group>";
+		};
+		C0A2D91B2B659BC6007A625D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C0A2D91C2B659BC6007A625D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C0A2D9282B659BE9007A625D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0A2D9292B659BE9007A625D /* WidgetKit.framework */,
+				C0A2D92B2B659BE9007A625D /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0A2D92D2B659BE9007A625D /* GlanceWidget */ = {
+			isa = PBXGroup;
+			children = (
+				C0A2D92E2B659BE9007A625D /* GlanceWidgetBundle.swift */,
+				C0A2D9302B659BE9007A625D /* GlanceWidget.swift */,
+				C0A2D9322B659BEA007A625D /* Assets.xcassets */,
+				C0A2D9342B659BEA007A625D /* Info.plist */,
+			);
+			path = GlanceWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0A2D9112B659BC5007A625D /* GlanceFinance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0A2D9202B659BC6007A625D /* Build configuration list for PBXNativeTarget "GlanceFinance" */;
+			buildPhases = (
+				C0A2D90E2B659BC5007A625D /* Sources */,
+				C0A2D90F2B659BC5007A625D /* Frameworks */,
+				C0A2D9102B659BC5007A625D /* Resources */,
+				C0A2D93B2B659BEA007A625D /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0A2D9362B659BEA007A625D /* PBXTargetDependency */,
+			);
+			name = GlanceFinance;
+			productName = GlanceFinance;
+			productReference = C0A2D9122B659BC5007A625D /* GlanceFinance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0A2D9262B659BE9007A625D /* GlanceWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0A2D9382B659BEA007A625D /* Build configuration list for PBXNativeTarget "GlanceWidgetExtension" */;
+			buildPhases = (
+				C0A2D9232B659BE9007A625D /* Sources */,
+				C0A2D9242B659BE9007A625D /* Frameworks */,
+				C0A2D9252B659BE9007A625D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlanceWidgetExtension;
+			productName = GlanceWidgetExtension;
+			productReference = C0A2D9272B659BE9007A625D /* GlanceWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0A2D90A2B659BC5007A625D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C0A2D9112B659BC5007A625D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					C0A2D9262B659BE9007A625D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = C0A2D90D2B659BC5007A625D /* Build configuration list for PBXProject "GlanceFinance" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0A2D9092B659BC5007A625D;
+			productRefGroup = C0A2D9132B659BC5007A625D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0A2D9112B659BC5007A625D /* GlanceFinance */,
+				C0A2D9262B659BE9007A625D /* GlanceWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0A2D9102B659BC5007A625D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A2D91D2B659BC6007A625D /* Preview Assets.xcassets in Resources */,
+				C0A2D91A2B659BC6007A625D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A2D9252B659BE9007A625D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A2D9332B659BEA007A625D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0A2D90E2B659BC5007A625D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A2D9182B659BC5007A625D /* ContentView.swift in Sources */,
+				C0A2D9162B659BC5007A625D /* GlanceFinanceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A2D9232B659BE9007A625D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A2D92F2B659BE9007A625D /* GlanceWidgetBundle.swift in Sources */,
+				C0A2D9312B659BE9007A625D /* GlanceWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0A2D9362B659BEA007A625D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0A2D9262B659BE9007A625D /* GlanceWidgetExtension */;
+			targetProxy = C0A2D9352B659BEA007A625D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C0A2D91E2B659BC6007A625D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0A2D91F2B659BC6007A625D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0A2D9212B659BC6007A625D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GlanceFinance/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Z57N4GD6Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.remingtonsteele.GlanceFinance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0A2D9222B659BC6007A625D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GlanceFinance/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Z57N4GD6Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.remingtonsteele.GlanceFinance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C0A2D9392B659BEA007A625D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Z57N4GD6Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GlanceWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GlanceWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.remingtonsteele.GlanceFinance.GlanceWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0A2D93A2B659BEA007A625D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Z57N4GD6Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GlanceWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GlanceWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.remingtonsteele.GlanceFinance.GlanceWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0A2D90D2B659BC5007A625D /* Build configuration list for PBXProject "GlanceFinance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A2D91E2B659BC6007A625D /* Debug */,
+				C0A2D91F2B659BC6007A625D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0A2D9202B659BC6007A625D /* Build configuration list for PBXNativeTarget "GlanceFinance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A2D9212B659BC6007A625D /* Debug */,
+				C0A2D9222B659BC6007A625D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0A2D9382B659BEA007A625D /* Build configuration list for PBXNativeTarget "GlanceWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A2D9392B659BEA007A625D /* Debug */,
+				C0A2D93A2B659BEA007A625D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0A2D90A2B659BC5007A625D /* Project object */;
+}
